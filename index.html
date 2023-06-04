@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>강한별 포트폴리오</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="star.svg" type="image/svg+xml" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="nav">
+            <div class="nav_logo" onclick="window.location.href='#'">
+                <i class="fa-regular fa-star"></i>
+                <!-- <i class="fa-solid fa-star"></i> -->
+                <span>강한별의 포트폴리오</span>
+            </div>
+            <div class="nav_menu">
+                <div class="nav_item" onclick="scrollInto('.top')">Top</div>
+                <div class="nav_item" onclick="scrollInto('.about')">About</div>
+                <div class="nav_item" onclick="scrollInto('.skills')">Skills</div>
+                <div class="nav_item" onclick="scrollInto('.portfolio')">Portfolio</div>
+                <div class="nav_item" onclick="scrollInto('.contact')">Contact</div>
+            </div>
+            <div class="nav_toggle_button"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <div class="top">
+            <div class="top_text">
+                <i class="fa-solid fa-star"></i>
+                <div class="top_title">코딩을 너무 좋아하고 기술을 많이 배우고 싶은</div>
+                <div class="top_description">신입 웹 개발자 강한별입니다</div>
+            </div>
+            <button class="top_about_button" onclick="scrollInto('.about')">About me</button>
+        </div>
+        <div class="about">
+            <div class="about_title">About me</div>
+            <div class="about_content">
+                <div class="about_image">
+                    <img src="me.PNG" />
+                </div>
+                <div class="about_content_text">
+                    <div class="about_content_text_title">고수 프로그래머가 되고 싶습니다</div>
+                    <ul class="about_content_text_list">
+                        <li>코딩이 재밌습니다</li>
+                        <li>새로운 기술을 계속 배우고 싶습니다</li>
+                        <li>조용히 척척해내는 스타일입니다</li>
+                        <li>성실함보다 재미를 추구하지만 그래도 성실한 편입니다</li>
+                        <li>즐기면서 하고싶습니다</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="skills_title">Skills</div>
+            <div class="skills_content">
+                <div class="skills_images">
+                    <div class="skills_images_main">
+                        <div class="skills_images_main_title">Main Skills</div>
+                        <div class="skills_images_main_images">
+                            <img class="skills_image" src="java.png" />
+                            <img class="skills_image" src="spring.png" />
+                            <img class="skills_image" src="javascript.png" />
+                            <img class="skills_image" src="oracleXE.png" />
+                            <img class="skills_image" src="oracleSQL.png" />
+                            <img class="skills_image" src="MyBatis.jpg" />
+                            <img class="skills_image" src="jquery.png" />
+                        </div>
+                    </div>
+                    <div class="skills_images_sub">
+                        <div class="skills_images_sub_title">Sub Skills</div>
+                        <div class="skills_images_sub_images">
+                            <img class="skills_image" src="1200px-C_Programming_Language.svg.png" />
+                            <img class="skills_image" src="Python-logo-notext.svg.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="skills_content_text">
+                    <ul class="skills_content_text_list">
+                        <li>스프링 프레임워크를 활용한 풀스택 개발이 가능합니다</li>
+                        <li>생각 할 수 있으건 시간을 들이면 전부 코딩 가능합니다</li>
+                        <li>하고 싶은 것을 영어로 구글링, 또는 chatGPT를 활용해 해낼 수 있습니다</li>
+                        <li>에러 잘 잡습니다</li>
+                        <li>C, Python은 </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio">
+            <div class="portfolio_title">Portfolio</div>
+            <div class="projects">
+                <div class="project">
+                    <div class="project_text">
+                        <div class="project_title">cliForumSocket</div>
+                        <div class="project_description">
+                            <br />
+                            <p>[순수 JAVA 코드로 작성한 TCP 통신 게시판]</p>
+                            <br />
+                            <p>cliForumSocket은 순수 java를 이용해 개발한 tcp 통신 게시판입니다.</p>
+                            <p>회원가입, 글 쓰기, 댓글 달기까지 게시판의 기본에 충실하면서 통신 기능까지 탑재해서 동시에 여러명이 접속해서 사용 할 수 있도록 개발하였습니다.</p>
+                            <p>게시글이나 댓글이 달렸을 때 실시간으로 화면이 갱신되는 기능까지는 구현을 실패했고, 대신 새로고침 버튼을 누르면 최신 데이터를 읽어 올 수 있도록 만들었습니다.</p>
+                        </div>
+                    </div>
+                    <div class="project_img">
+                        <img src="cliForumSocket.gif" />
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project_text">
+                        <div class="project_title">Two-Ex</div>
+                        <div class="project_description">
+                            <br />
+                            <p>[전문기술 쇼핑 플랫폼과 학습관리시스템의 합체]</p>
+                            <br />
+                            <p>투엑스는 서비스 쇼핑 플랫폼과 학습관리시스템의 조합입니다.</p>
+                            <p>전문가 회원은 교육, 트레이닝 등의 서비스를 상품으로 사이트에 등록하고 제공 할 수 있습니다.</p>
+                            <p>고객회원은 상품을 구매하고 학습관리시스템에 참여 할 수 있습니다.</p>
+                            <p>학습관리시스템을 통해서, 고객은 전문가, 또는 기타 고객들과의 교류가 가능합니다.</p>
+                        </div>
+                    </div>
+                    <div class="project_img">
+                        <img src="twoEx.gif" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contact_title">Contact</div>
+            <div class="contact_email">khbmhp2g1994@naver.com</div>
+            <div class="contact_github" onclick="window.location.href='https://github.com/byulsdeep';">https://github.com/byulsdeep</div>
+            <div class="contact_rights">2023 Kang Han Byul - All rights reserved</div>
+            <div class="contact_rights">본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다.</div>
+        </div>
+        <div class="scroll_to_top_button" onclick="scrollInto('.top')">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </body>
+    <script>
+        const nav = document.querySelector('.nav');
+        const scroll_to_top_button = document.querySelector('.scroll_to_top_button');
+        document.addEventListener('scroll', () => {
+            if (window.scrollY > window.innerHeight * 0.85) {
+                nav.className = 'nav show';
+                scroll_to_top_button.className = 'scroll_to_top_button show';
+            } else {
+                nav.className = 'nav';
+                scroll_to_top_button.className = 'scroll_to_top_button';
+            }
+        });
+        function scrollInto(selector, link) {
+            const scrollTo = document.querySelector(selector);
+            scrollTo.scrollIntoView({ behavior: 'smooth', block: link });
+        }
+    </script>
+</html>
