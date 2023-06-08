@@ -220,7 +220,7 @@ button {
 }
 /* portfolio */
 .portfolio {
-    height: 250vh;
+    height: 300vh;
     display: flex;
     flex-direction: column;
     align-items: center;
