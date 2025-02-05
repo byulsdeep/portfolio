@@ -1,0 +1,45 @@
+[
+    {
+      "title": "Cash Register Program - First Full-Stack Web App (Coding Boot Camp)",
+      "date": "2022 April ~ May",
+      "picSrc": "pos.gif",
+      "info": "First full-stack web application built during a coding boot camp. Learned fundamental web development concepts, including dynamic web applications, asynchronous requests, and CRUD operations.<br><br>frontend: HTML, CSS, javascript<br>backend: JSP Servlet<br>database: Oracle"
+    },
+    {
+      "title": "Project Management System - Advanced Web App (Coding Boot Camp)",
+      "date": "2022 June ~ September",
+      "picSrc": "pms.gif",
+      "info": "Developed a more advanced web application, expanding my knowledge of session management, data encryption, SMTP, and other practical concepts.<br><br>frontend: HTML, CSS, javascript<br>backend: Spring<br>database: Oracle"
+    },
+    {
+      "title": "Command Line Internet Forum (Java)",
+      "date": "2022 November",
+      "picSrc": "cliForumSocket.gif",
+      "info": "Created an internet forum that runs entirely on a command-line interface using Java. The system operates with two JAR files: one for the server and another for the client. Despite its simplicity, it fully supports user sign-ups, logins, thread creation, and comments. To maintain a pure Java implementation without external tools, CSV-based text files were used as a database substitute.<br><br>frontend: Java<br>backend: Java<br>database: text files (CSV)<br>"
+    },
+    {
+      "title": "E-commerce Social Platform (Coding Boot Camp)",
+      "date": "2023 Jan ~ June",
+      "picSrc": "whitebox.gif",
+      "info": "Developed a social commerce platform integrating social networking and gifting features similar to Kakao Gift.<br><br>Social Login: Implemented authentication via Google, LINE, and Kakao using OAuth 2.0.<br>Payment Integration: Integrated PayPal for secure transactions using the PayPal Developer API.<br>Gifting System: Enabled users to purchase and send digital/physical gifts to friends.<br><br>frontend: HTML, CSS, javascript<br>backend: Spring<br>database: Oracle<br>"
+    },
+    {
+      "title": "Health Insurance Intranet System Renovation - First Workplace",
+      "date": "2023 Nov ~ 2024 March",
+      "picSrc": "",
+      "info": "Participated in my first real-world software project in Japan. The goal was to renovate the system due to a new health insurance standardization update while also accommodating customer requests. The new standardization introduced significant changes to health insurance items, leading to modifications in database tables source codes. It was a great chance to learn to use real workplace tools such as WinMerge and Everything.<br><br>framework: Windows Form with .net framework<br>database: Oracle<br>os: Windows Server<br>schedule automation: batch scripting<br>"
+    },
+    {
+      "title": "Kanji Test Scoring Program (React.js)",
+      "date": "2024 June",
+      "picSrc": "kanji.gif",
+      "info": "A simple Kanji test scoring application built with React.js. Built all by myself during break period all the way from investigation to deployment, this was the chance where I became friendly with the Linux terminal. An interesting aspect of this project was using an Excel file instead of a database to store test results.<br><br>frontend: React.js<br>backend: express.js<br>database: Excel<br>os: Amazon Linux 2<br>"
+    },
+    {
+      "title": "Lifeline Monitoring System - Current Project (CGI to Spring Boot Migration)",
+      "date": "2024 October ~ now",
+      "picSrc": "",
+      "info": "I am currently working on a large-scale migration project that transitions from traditional CGI to modern Spring Boot while incorporating additional customer requirements. This is the largest system I have worked on so far, as I work alongside 15 developers on my team and an additional 8 members from a separate team. Consisting of both a browser-based interface and a mobile version, my primary responsibility is the development and testing of the mobile version. As we are in the integration testing phase, my daily tasks include running tests, reporting issues on Redmine, and fixing identified errors. Debugging has been particularly challenging since deployments are handled in a controlled environment where I do not have direct access. Without the convenience of a local debugger, I have learned to rely on checking log files with WinSCP, running external programs directly on terminals with Teraterm, etc. Despite these challenges, I have adapted and improved my problem-solving skills, further enhancing my ability to navigate restricted environments.<br><br><b>Before Migration:</b><br>frontend: CGI shell<br>backend: shell<br>programs: shell, Pro*C<br>database: Oracle<br>os: RHEL8<br><br><b>After Migration:</b><br>frontend: SSR by SpringBoot<br>backend: SpringBoot<br>programs: shell, Pro*C<br>database: Oracle<br>os: RHEL8<br>"
+    }
+  ]
+  
