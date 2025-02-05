@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Byul's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="star.svg" type="image/svg+xml" />
+</head>
+
+<body>
+    <div class="main">
+        <!-- <h2>nav</h2> -->
+        <div class="nav">
+            <div class="nav_logo" onclick="window.location.href='#'">
+                ⭐
+                <span>Byul's Portfolio</span>
+            </div>
+            <div class="nav_menu">
+                <div class="nav_item" onclick="scrollInto('.cover')">Top</div>
+                <div class="nav_item" onclick="scrollInto('.about')">About</div>
+                <div class="nav_item" onclick="scrollInto('.dummy')">Projects</div>
+                <div class="nav_item" onclick="scrollInto('.contact')">Contact</div>
+            </div>
+            <div class="nav_toggle_button"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <!-- <h2>cover</h2> -->
+        <div class="cover">
+            <div class="cover_text">
+                <div class="cover_text_title">Hi👋</div>
+                <div class="cover_text_desc">I am Byul, I solve problems.</div>
+                <button class="cover_about_button" onclick="scrollInto('.about')">About me</button>
+            </div>
+        </div>
+        <!-- <h2>about</h2> -->
+        <div class="about">
+            <div class="about_title">About me</div>
+            <p class="about_text">
+                I'm a software developer with expertise in Java, JavaScript, Spring, React, Oracle, MySQL, and Shell
+                scripting.
+                I thrive in solving complex problems, optimizing code, and delivering efficient solutions.
+                My skills go beyond coding—I analyze issues, propose improvements, and contribute meaningfully to every
+                project I work on.
+                I may have two years of experience, but I perform at a level beyond that.
+                I'm confident in debugging, system design, and algorithmic problem-solving, handling LeetCode easy and
+                some medium problems with ease.
+                My approach is logical, structured, and results-driven.
+                I'm currently looking for a company in Japan that values skill over tenure, where I can make an impact
+                and grow as a developer.
+                If you're looking for someone who gets things done, let's talk.
+            </p>
+        </div>
+        <!-- <h2>experience</h2> -->
+        <div class="project">
+            <hr>
+            <div class="dummy">
+                The following are the projects I have participated so far.
+                Some contain Korean and Japanese.
+                Please excuse my language.
+            </div>
+            <hr>
+            <div class="project_item">
+                <div class="project_item_left">
+                    <div class="project_item_title">Cash Register Program - First Full-Stack Web App (Coding Boot Camp)
+                    </div>
+                    <div class="project_item_date">2022 April ~ May</div>
+                    <div class="project_item_pic">
+                        <img src="pos.gif" />
+                    </div>
+                </div>
+                <div class="project_item_right">
+                    <p class="project_item_info">
+                        First full-stack web application built during a coding boot camp.
+                        Learned fundamental web development concepts, including dynamic web applications, asynchronous
+                        requests, and CRUD operations.<br>
+                        <br>
+                        frontend: HTML, CSS, javascript<br>
+                        backend: JSP Servlet<br>
+                        database: Oracle
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="project_item">
+                <div class="project_item_left">
+                    <div class="project_item_title">Project Management System - Advanced Web App (Coding Boot Camp)
+                    </div>
+                    <div class="project_item_date">2022 June ~ September</div>
+                    <div class="project_item_pic">
+                        <img src="pms.gif" />
+                    </div>
+                </div>
+                <div class="project_item_right">
+                    <p class="project_item_info">
+                        Developed a more advanced web application, expanding my knowledge of session management, data
+                        encryption, SMTP, and other practical concepts.<br>
+                        <br>
+                        frontend: HTML, CSS, javascript<br>
+                        backend: Spring<br>
+                        database: Oracle
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="project_item">
+                <div class="project_item_left">
+                    <div class="project_item_title">Command Line Internet Forum (Java)</div>
+                    <div class="project_item_date">2022 November</div>
+                    <div class="project_item_pic">
+                        <img src="cliForumSocket.gif" />
+                    </div>
+                </div>
+                <div class="project_item_right">
+                    <p class="project_item_info">
+                        Created an internet forum that runs entirely on a command-line interface using Java.
+                        The system operates with two JAR files: one for the server and another for the client.
+                        Despite its simplicity, it fully supports user sign-ups, logins, thread creation, and comments.
+                        To maintain a pure Java implementation without external tools, CSV-based text files were used as
+                        a database substitute.<br>
+                        <br>
+                        frontend: Java<br>
+                        backend: Java<br>
+                        database: text files (CSV)<br>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="project_item">
+                <div class="project_item_left">
+                    <div class="project_item_title">E-commerce Social Platform (Coding Boot Camp)</div>
+                    <div class="project_item_date">2023 Jan ~ June</div>
+                    <div class="project_item_pic">
+                        <img src="whitebox.gif" />
+                    </div>
+                </div>
+                <div class="project_item_right">
+                    <p class="project_item_info">
+                        Developed a social commerce platform integrating social networking and gifting features similar
+                        to Kakao Gift.<br>
+                        <br>
+                        Social Login: Implemented authentication via Google, LINE, and Kakao using OAuth 2.0.<br>
+                        Payment Integration: Integrated PayPal for secure transactions using the PayPal Developer
+                        API.<br>
+                        Gifting System: Enabled users to purchase and send digital/physical gifts to friends.<br>
+                        <br>
+                        frontend: HTML, CSS, javascript<br>
+                        backend: Spring<br>
+                        database: Oracle<br>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="project_item">
+                <div class="project_item_left">
+                    <div class="project_item_title">Health Insurance Intranet System Renovation - First Workplace
+                        Project (Japan)</div>
+                    <div class="project_item_date">2023 Nov ~ 2024 March</div>
+                    <div class="project_item_pic no_image">
+                        no image
+                    </div>
+                </div>
+                <div class="project_item_right">
+                    <p class="project_item_info">
+                        Participated in my first real-world software project in Japan.
+                        The goal was to renovate the system due to a new health insurance standardization update while
+                        also accommodating customer requests.
+                        The new standardization introduced significant changes to health insurance items, leading to
+                        modifications in database tables source codes.
+                        It was a great chance to learn to use real workplace tools such as
+                        WinMerge and Everything.<br>
+                        <br>
+                        framework: Windows Form with .net framework<br>
+                        database: Oracle<br>
+                        os: Windows Server<br>
+                        schedule automation: batch scripting<br>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="project_item">
+                <div class="project_item_left">
+                    <div class="project_item_title">Kanji Test Scoring Program (React.js)</div>
+                    <div class="project_item_date">2024 June</div>
+                    <div class="project_item_pic">
+                        <img src="kanji.gif" />
+                    </div>
+                </div>
+                <div class="project_item_right">
+                    <p class="project_item_info">
+                        A simple Kanji test scoring application built with React.js.
+                        Built all by myself during break period all the way from investigation to deployment,
+                        this was the chance where I became friendly with the Linux terminal.
+                        An interesting aspect of this project was using an Excel file instead of a database to store
+                        test results.<br>
+                        <br>
+                        frontend: React.js<br>
+                        backend: express.js<br>
+                        database: Excel<br>
+                        os: Amazon Linux 2<br>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="project_item">
+                <div class="project_item_left">
+                    <div class="project_item_title">Lifeline Monitoring System - Current Project (CGI to Spring Boot
+                        Migration)</div>
+                    <div class="project_item_date">2024 October ~ now</div>
+                    <div class="project_item_pic no_image">no image</div>
+                </div>
+                <div class="project_item_right">
+                    <p class="project_item_info">
+                        I am currently working on a large-scale migration project that transitions from traditional CGI
+                        to modern Spring Boot while incorporating additional customer requirements.
+                        This is the largest system I have worked on so far, as I work alongside 15 developers on my team
+                        and an additional 8 members from a separate team.
+                        Consisting of both a browser-based interface and a mobile version, my primary responsibility is
+                        the development and testing of the mobile version.
+                        As we are in the integration testing phase, my daily tasks include running tests, reporting
+                        issues on Redmine, and fixing identified errors.
+                        Debugging has been particularly challenging since deployments are handled in a controlled
+                        environment where I do not have direct access.
+                        Without the convenience of a local debugger, I have learned to rely on checking log files with
+                        WinSCP, running external programs directly on terminals with Teraterm, etc.
+                        Despite these challenges, I have adapted and improved my problem-solving skills, further
+                        enhancing my ability to navigate restricted environments.<br>
+                        <br>
+                        <b>Before Migration:</b><br>
+                        frontend: CGI shell<br>
+                        backend: shell<br>
+                        programs: shell, Pro*C<br>
+                        database: Oracle<br>
+                        os: RHEL8<br>
+                        <br>
+                        <b>After Migration:</b><br>
+                        frontend: SSR by SpringBoot<br>
+                        backend: SpringBoot<br>
+                        programs: shell, Pro*C<br>
+                        database: Oracle<br>
+                        os: RHEL8<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="closing">
+            I take pride in my skills and problem-solving ability, always seeking efficient and impactful solutions.
+            Ready
+            for new challenges, I thrive in environments where my contributions make a difference. Let's connect and
+            build something great together.
+        </div>
+        <!-- <h2>contacts</h2> -->
+        <div class="contact">
+            <div class="contact_title">Contact</div>
+            <ul class="contact_info">
+                <li onclick="window.location.href='mailto:byulzdeep@gmail.com'">byulzdeep@gmail.com</li><br>
+                <li onclick="window.location.href='https://github.com/byulsdeep'">https://github.com/byulsdeep</li>
+            </ul>
+            <div class="contact_rights">2025 Byul - All rights reserved</div>
+        </div>
+        <div class="scroll_to_top_button" onclick="scrollInto('.cover')">🔝</div>
+    </div>
+</body>
+<script>
+    const nav = document.querySelector('.nav');
+    const scroll_to_top_button = document.querySelector('.scroll_to_top_button');
+    document.addEventListener('scroll', () => {
+        if (window.scrollY > window.innerHeight * 0.85) {
+            nav.className = 'nav show';
+            scroll_to_top_button.className = 'scroll_to_top_button show';
+        } else {
+            nav.className = 'nav';
+            scroll_to_top_button.className = 'scroll_to_top_button';
+        }
+    });
+    function scrollInto(selector, link) {
+        const scrollTo = document.querySelector(selector);
+        scrollTo.scrollIntoView({ behavior: 'smooth', block: link });
+    }
+
+
+</script>
+
+</html>
