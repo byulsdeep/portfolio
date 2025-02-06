@@ -92,6 +92,7 @@ body {
     margin-top: 10px;
     font-size: 16px;
     font-weight: 1000;
+    cursor: pointer;
     /* -webkit-text-stroke: black 3px; */
 }
 .cover_about_button:hover {
@@ -182,6 +183,9 @@ body {
 .contact_info {
     text-align: center;
     margin-top: 5px;
+}
+.contact_info > li {
+    cursor: pointer;
 }
 .contact_rights {
     margin-top: 5px;
