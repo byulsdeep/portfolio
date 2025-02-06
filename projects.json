@@ -27,7 +27,7 @@
       "title": "Health Insurance Intranet System Renovation - First Workplace",
       "date": "2023 Nov ~ 2024 March",
       "picSrc": "",
-      "info": "Participated in my first real-world software project in Japan. The goal was to renovate the system due to a new health insurance standardization update while also accommodating customer requests. The new standardization introduced significant changes to health insurance items, leading to modifications in database tables source codes. It was a great chance to learn to use real workplace tools such as WinMerge and Everything.<br><br>framework: Windows Form with .net framework<br>database: Oracle<br>os: Windows Server<br>schedule automation: batch scripting<br>"
+      "info": "Participated in my first real-world software project in Japan. The goal was to renovate the system due to a new health insurance standardization update while also accommodating customer requests. The new standardization introduced significant changes to health insurance items, leading to modifications in database and tables source codes. It was a great chance to learn to use real workplace tools such as WinMerge and Everything.<br><br>framework: Windows Form with .net framework<br>database: Oracle<br>os: Windows Server<br>schedule automation: batch scripting<br>"
     },
     {
       "title": "Kanji Test Scoring Program (React.js)",
