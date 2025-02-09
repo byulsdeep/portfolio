@@ -34,32 +34,26 @@
         </div>
         <!-- <h2>about</h2> -->
         <div class="about">
-            <div class="about_title">About me</div>
+            <div class="about_title"><b>About me</b></div>
             <p class="about_text">
-                I'm a software developer with expertise in Java, JavaScript, Spring, React, Oracle, MySQL, and Shell
-                scripting.
-                I thrive in solving complex problems, optimizing code, and delivering efficient solutions.
-                My skills go beyond coding—I analyze issues, propose improvements, and contribute meaningfully to every
-                project I work on.
-                I may have two years of experience, but I perform at a level beyond that.
-                I'm confident in debugging, system design, and algorithmic problem-solving, handling LeetCode easy and
-                some medium problems with ease.
-                My approach is logical, structured, and results-driven.
-                I'm currently looking for a company in Japan that values skill over tenure, where I can make an impact
-                and grow as a developer.
-                If you're looking for someone who gets things done, let's talk.
+                With 2 years of experience in software development, I have consistently demonstrated that my technical skills and problem-solving abilities rival those of developers with far more experience. I have contributed significantly to high-stakes projects, taking on complex tasks and meeting tight deadlines—workload levels that others with more seniority might struggle with. My ability to rapidly grasp new technologies, find optimal solutions, and ensure timely project completion has earned me recognition from both my peers and leaders.
+                <br><br>
+                I pride myself on my strong work ethic, adaptability, and independence in solving problems. In a recent project, I resolved an issue that had stumped more experienced team members, diving deep into the root cause and quickly delivering a solution just in time for a critical deadline. This ability to handle high-responsibility tasks and deliver results showcases my capabilities beyond what’s typically expected of someone with just two years of experience.
+                <br><br>
+                As a developer, I am skilled in Java, JavaScript, Spring, React, Oracle, MySQL, and Shell scripting. I excel at solving complex problems, optimizing code, and providing efficient solutions. Beyond coding, I am adept at analyzing issues, proposing improvements, and contributing meaningfully to every project. I handle algorithmic problem-solving with ease, solving easy to medium LeetCode challenges efficiently. Logical, structured, and results-driven, I am seeking a company in Japan where skill is valued over tenure, and where I can make an impact and continue to grow as a developer.
+                <br><br>
+                If you're looking for someone who can get things done and make a difference, let’s connect.
             </p>
         </div>
         <!-- <h2>experience</h2> -->
         <div class="project">
-            <hr>
             <div class="dummy">
                 The following are the projects I have participated so far.
                 Some contain Korean and Japanese.
                 Please excuse my language.
             </div>
         </div>
-        <hr>
+        <!-- <hr> -->
         <div class="closing">
             <p>
                 I take pride in my skills and problem-solving ability, always seeking efficient and impactful solutions.
@@ -69,7 +63,7 @@
         </div>
         <!-- <h2>contacts</h2> -->
         <div class="contact">
-            <div class="contact_title">Contact</div>
+            <div class="contact_title"><b>Contact</b></div>
             <ul class="contact_info">
                 <li onclick="window.location.href='mailto:byulzdeep@gmail.com'">byulzdeep@gmail.com</li><br>
                 <li onclick="window.location.href='https://github.com/byulsdeep'">https://github.com/byulsdeep</li>
@@ -102,7 +96,6 @@
             const projectDiv = document.querySelector('.project')
             projects.reverse()
             projects.forEach(project => {
-                const hr = document.createElement('hr')
                 const projectItem = document.createElement('div')
                 projectItem.classList.add('project_item')
                 projectItem.innerHTML = 
@@ -119,7 +112,6 @@
                             <p class="project_item_info">${project.info}</p>
                         </div>
                     `
-                projectDiv.appendChild(hr)
                 projectDiv.appendChild(projectItem)
             })
         })
