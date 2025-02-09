@@ -105,7 +105,7 @@ body {
     font-weight: 1000;
     transition: all 0.3s ease-in;
 }
-.about, .project, .closing, .contact {
+.about, .project, .contact {
     max-width: 1440px;
     border-bottom: 1px solid white;
 }
